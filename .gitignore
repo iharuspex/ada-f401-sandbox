@@ -3,3 +3,6 @@ obj/
 
 # Ada Library Information
 *.ali
+
+# CLion configuration
+.idea/
