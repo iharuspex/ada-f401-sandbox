@@ -24,5 +24,9 @@ project Test_F401 is
       for Program_Host use "localhost:4242";
    end Ide;
 
+   package Compiler is
+      for Switches ("ada") use ("-g");
+   end Compiler;
+
 end Test_F401;
 
